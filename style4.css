@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    box-shadow: 0px 10px 10px rgb(14, 14, 167);
+}
+.navbar-img{
+    width: 50px;
+}
+.image{
+    height: 100vh;
+}
+.card-container {
+    margin-top: 150px;
+}
+.cards:hover{
+        width: 100%;
+        transform: scale(1.05);
+        transition: 0.5s ease-out;
+}
+.card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 20px; 
+}
+.card {
+    background-color: #111; 
+    color: #fff; 
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+  
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+  
+.card button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    .card-container {
+        margin-top: -450px;
+    }
+    #product1{
+        margin-left: 100px;
+        margin-bottom: 50px;
+        height: 400px;
+    }
+    #product2{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    #product3{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .card-container2 {
+        margin-top: -100px;
+    }
+    #product4{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    #product5{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    #product6{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+.footer{
+    background-color: rgb(37, 36, 36);
+}
+.footer-img{
+    width: 25px;
+    display:inline;
+    margin: 0 25px;
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+    .footer-img{
+        width: 15px;
+        display:block;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-text{
+        color: white;
+        margin-right: 35px;
+    
+    }
+}
